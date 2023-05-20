@@ -494,13 +494,9 @@ textarea{
 
 /*tablet*/
 @media (min-width: 320px) and (max-width: 767px){
-
-    *{
-        margin: 0;
-        padding: 0;
     }
     body{
-       overflow-x: hidden;
+       overflow-x: none;
     }
     #hamburger-menu{
         display: flex;
@@ -525,7 +521,7 @@ textarea{
         position: absolute;
         top: 100%;
         height: 100vh;
-        right: 0;
+        right: 100%;
         width: 50%;
         background-color: #0b56f8;
         display: flex;
@@ -533,7 +529,6 @@ textarea{
         justify-content: start;
         margin-top: -30px;
         position: fixed;
-        transition: ;
     }
     .navbar ul li{
         text-align: center;
@@ -552,7 +547,6 @@ textarea{
             flex-direction: column;
             justify-content: start;
             z-index: 999;
-            transition: 0.5s;
     }
     .sesi1{
         width: 100vh;
