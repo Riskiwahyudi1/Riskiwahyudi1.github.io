@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgb(44, 43, 43);
+    overflow-x: hidden;
     
 }
 #hamburger-menu{
