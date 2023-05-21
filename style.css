@@ -489,8 +489,10 @@ textarea{
 /*sesi 7 akhir*/
 
 /*tablet*/
-@media (min-width: 320px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 788px){
     body{
+        width: 100vw;
+        
     }
     #hamburger-menu{
         display: flex;
@@ -543,7 +545,7 @@ textarea{
             z-index: 999;
     }
     .sesi1{
-        width: 100vh;
+        width: 80vh;
         display: flex;
         color: white;
         flex-direction: column;
@@ -680,7 +682,7 @@ textarea{
     /*sesi6*/
     .sesi6{
         display: block;
-        width: 46vh;
+        width: 100vw;
         height: 500px;
     }
     .sesi6left{
